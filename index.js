@@ -21,7 +21,6 @@ app.use(compression());
 
 app.get('/', function(req, res) {
   res.type('text/plain');
-  res.header('Access-Control-Allow-Origin', '*');
   res.end(['This is a web service, not a web page.',
             AUTHOR,
             LICENSE].join('\n'));
@@ -30,6 +29,8 @@ app.get('/', function(req, res) {
 
 app.get('/v1.0/macovei-fb-proxy.json', function(req, res){
   res.type('application/json');
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With');
   res.end(fbJSON);
 
   var now = +new Date();
