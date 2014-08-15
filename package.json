@@ -1,0 +1,17 @@
+{
+  "name": "macovei-fb-proxy",
+  "version": "0.1.0",
+  "description": "Facebook proxy for MacoveiPresedinte facebook page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MPLv2",
+  "dependencies": {
+    "compression": "^1.0.11",
+    "express": "^4.8.4",
+    "redis": "^0.12.1",
+    "request": "^2.40.0"
+  }
+}
