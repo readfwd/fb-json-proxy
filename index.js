@@ -11,7 +11,7 @@ var lastRefresh = 0;
 
 
 var interval  = process.env.REFRESH_INTERVAL || 120;
-var pageId    = process.env.FB_PAGE_ID || '1444537399159513';
+var pageId    = process.env.FB_PAGE_ID || '130380413723811';
 var userAgent = process.env.USER_AGENT ||
                   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) ' +
                   'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36';

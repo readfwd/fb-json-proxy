@@ -12,5 +12,5 @@ Get: http://localhost:8080/v1.0/macovei-fb-proxy.json
 **Config**
 
 * REFRESH_INTERVAL defaults to 120 (2 minutes);
-* FB_PAGE_ID defaults to '1444537399159513' (MacoveiPresedinte page on Facebook)
+* FB_PAGE_ID defaults to '1444537399159513' (MonicaMacoveiUE page on Facebook)
 * USER_AGENT defaults to 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36';
